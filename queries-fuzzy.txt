@@ -1,0 +1,56 @@
+Intended Query List:
+the news today
+manchester news
+Turkiye
+Harry and Meghan
+Doctor Who
+Manchester city
+Manchester United
+Energy bills increase
+Dealer to plead guilty in Matthew Perry death
+UK inflation unexpectedly jumps to 3.6% as food prices rise again
+Trump in the White House
+US vs China chip manufacturing
+Artificial intelligence
+Europa League
+best dramas
+Telly
+Bestie
+hey, it's Olamide!
+oops, wrong password
+delulu
+
+Fuzzy Queries:
+Thenewstoday
+msnchester bews
+Turkey
+megan and harry
+dr who
+man city
+manu
+nrg blls ncrs
+matthew perry guilty dealer
+uk intlashion unecpeft3rly jumpyd yo 3.6 per cent as food prices rise agin
+ttump in the the whit hoyse
+us v china chip making
+ai
+uropa lege
+bezt dramz
+tellie
+best friend
+h3y, 1t's 0l4m1d3!
+00ps-wr0ng_passw0rd
+delusional
+
+Gibberish Queries:
+sfsdsfsd
+dhasfd
+Ahnahfdsgv
+qwgfw ywegdbfehd hyfv
+/,./.,.//,@324.//.
+0123456789
+1i2uq234yt9u4r
+.’1;.[l’52q]kotg5rtgyy.;]
+h3y, 1t's 0l4m1d3!
+00ps-wr0ng_passw0rd
+       .x jx n
