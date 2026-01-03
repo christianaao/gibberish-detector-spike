@@ -126,17 +126,6 @@ def check_queries(query_object, model="philosophy.model"):
                 )
 
 
-# def gibberish_filter(query, model="big.model"):
-#     Detector = detector.create_from_model(model)
-
-#     query_list = query.split(" ")
-#     filtered_list = []
-#     for q in query_list:
-#         if Detector.is_gibberish(q) == False:
-#             filtered_list.append(q)
-#     print(" ".join(filtered_list))
-
-
 # function to return results for all queries
 check_queries(
     queries

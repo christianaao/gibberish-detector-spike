@@ -15,3 +15,7 @@ def scan_gibberish():
     additive_cum_proba, multiplicative_cum_proba = scanner.scan("ldfjgnkdfjnd")
     print(additive_cum_proba)
     print(multiplicative_cum_proba)
+
+
+# build_model()
+# scan_gibberish()
