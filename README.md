@@ -1,28 +1,28 @@
 # Testing Gibberish Detectors
-This project tests different gibberish detector libraries against a set of queries.<br />
+This project tests different gibberish detector libraries against a set of queries.<br /><br />
 For more information on any of these libraries, please see the source code in the References section below
 
 ## What Each File Does
 
 ### Library Tests
-**fuzgib-combo-test**: incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries<br />
-**fuzzy-matching-library-test**: tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries<br />
-**gibberish-detector-library-test**: tests Gibberish Detector capabilities on a set of queries<br />
-**gibberishpy-library-test**: attempt to run gibberishpy<br />
-**nostril-library-test**: tests nostril capabilities on a set of queries
+- **fuzgib-combo-test**: incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries
+- **fuzzy-matching-library-test**: tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries
+- **gibberish-detector-library-test**: tests Gibberish Detector capabilities on a set of queries
+- **gibberishpy-library-test**: attempt to run gibberishpy
+- **nostril-library-test**: tests nostril capabilities on a set of queries
 
 ### Other Files
-**idealist-philosophy-corpus**: Corpus used to create model for gibberish-detector<br />
-**philosophy-model**: model created from Gibbertish Detector's train feature using the Idealist Philosophy corpus, used as default model in Gibberish Detector and Combo tests<br />
-**queries-fuzzy**: text file of queries used to test TheFuzz<br />
-**queries-list**: queries used to test libraries in a suitable format<br />
-**queries**: text file of queries used to test libraries<br />
-**txt-convert**: converts txt file to list datatype to easily be used for testing
+- **idealist-philosophy-corpus**: Corpus used to create model for gibberish-detector
+- **philosophy-model**: model created from Gibbertish Detector's train feature using the Idealist Philosophy corpus, used as default model in Gibberish Detector and Combo tests
+- **queries-fuzzy**: text file of queries used to test TheFuzz
+- **queries-list**: queries used to test libraries in a suitable format
+- **queries**: text file of queries used to test libraries
+- **txt-convert**: converts txt file to list datatype to easily be used for testing
 
 ## How to Run the Code Locally
 
 ### System Requirements
-Ensure you have Python 3 installed, found [here](https://www.python.org/downloads/)
+Ensure you have Python 3 installed, found [here](https://www.python.org/downloads/).
 
 ### fuzzy-matching-library-test
 #### Installation Steps
@@ -58,7 +58,8 @@ To train a corpus to use as a model, enter the following to the CLI:
 ```bash
 gibberish-detector train (text file) > file-name.model
 ```
-Now you can refer to this as your model to detect gibberish against. Ensure to change the default model in the code to your new model.<br />
+Now you can refer to this as your model to detect gibberish against. Ensure to change the default model in the code to your new model.<br /><br />
+
 To run the code:
 ```bash
 python gibberish-detector-library-test
@@ -109,7 +110,7 @@ To train a corpus to use as a model, enter the following to the CLI:
 ```bash
 gibberish-detector train (text file) > file-name.model
 ```
-Now you can refer to this as your model to detect gibberish against. Ensure to change the default model in the code to your new model.<br />
+Now you can refer to this as your model to detect gibberish against. Ensure to change the default model in the code to your new model.<br /><br />
 To run the code:
 ```bash
 python fuzgib-combo-test.py
