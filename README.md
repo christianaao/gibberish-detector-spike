@@ -1,11 +1,11 @@
 # Testing Gibberish Detectors
-This project tests different gibberish detector libraries against a set of queries.
+This project tests different gibberish detector libraries against a set of queries. <br />
 For more information on any of these libraries, please see the source code in the References section below
 
 ## What Each File Does
 
 ### Library Tests
-**fuzgib-combo-test**: incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries
+**fuzgib-combo-test**: incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries  
 **fuzzy-matching-library-test**: tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries
 **gibberish-detector-library-test**: tests Gibberish Detector capabilities on a set of queries
 **gibberishpy-library-test**: attempt to run gibberishpy
@@ -110,26 +110,26 @@ python txt-convert
 ### Libraries
 
 #### Nostril
-**Documentation** - https://github.com/casics/nostril/blob/master/docs/explanations/README.md
-Paper - Hucka, M. (2018). Nostril: A nonsense string evaluator written in Python. Journal of Open Source Software, 3(25), 596, https://doi.org/10.21105/joss.00596
-**Source Code** - https://github.com/casics/nostril
+Documentation - https://github.com/casics/nostril/blob/master/docs/explanations/README.md  
+Paper - Hucka, M. (2018). Nostril: A nonsense string evaluator written in Python. Journal of Open Source Software, 3(25), 596, https://doi.org/10.21105/joss.00596  
+Source Code - https://github.com/casics/nostril  
 
 #### RapidFuzz
-**Source Code** - https://github.com/rapidfuzz/RapidFuzz
+Source Code - https://github.com/rapidfuzz/RapidFuzz
 
 #### TheFuzz
-**Source Code** - https://github.com/seatgeek/thefuzz
+Source Code - https://github.com/seatgeek/thefuzz
 
 #### fuzzy_wuzzy (deprecated)
-**Source Code** - https://github.com/seatgeek/fuzzywuzzy
+Source Code - https://github.com/seatgeek/fuzzywuzzy
 
 #### Gibberish Detector
-**Source Code** - https://github.com/domanchi/gibberish-detector
-**Original Source Code** - https://github.com/rrenaud/Gibberish-Detector
+Source Code - https://github.com/domanchi/gibberish-detector
+Original Source Code - https://github.com/rrenaud/Gibberish-Detector
 
 #### Gibberishpy (did not work)
-**Source Code** - https://github.com/yuenshingyan/gibberishpy
+Source Code - https://github.com/yuenshingyan/gibberishpy
 
 ### Documents
 
-**Corpus used for gibberish-detector** - Randrup, Axel, 2006, Idealist Philosophy, Oxford Text Archive, http://hdl.handle.net/20.500.12024/2501
+Corpus used for `gibberish-detector-library-test` model - Randrup, Axel, 2006, Idealist Philosophy, Oxford Text Archive, http://hdl.handle.net/20.500.12024/2501
