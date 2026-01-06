@@ -5,19 +5,19 @@ For more information on any of these libraries, please cheeck their individual d
 ## What Each File Does
 
 ### Library Tests
-- `fuzgib-combo-test.py`: incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries
-- `fuzzy-matching-library-test.py`: tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries
-- `gibberish-detector-library-test.py`: tests Gibberish Detector capabilities on a set of queries
-- `gibberishpy-library-test.py`: attempt to run gibberishpy. However, this did not work
-- `nostril-library-test.py`: tests nostril capabilities on a set of queries
+- `fuzgib-combo-test.py` - incorporates Gibberish Detector and TheFuzz to create a search engine to filter gibberish queries and match fuzzy queries to pre-determined queries
+- `fuzzy-matching-library-test.py` - tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries
+- `gibberish-detector-library-test.py` - tests Gibberish Detector capabilities on a set of queries
+- `gibberishpy-library-test.py` - attempt to run gibberishpy. However, this did not work
+- `nostril-library-test.py` - tests nostril capabilities on a set of queries
 
 ### Other Files
-- `idealist-philosophy-corpus.txt`: Corpus used to create model for gibberish-detector
-- `philosophy.model`: model created from Gibbertish Detector's train feature using the Idealist Philosophy corpus, used as default model in Gibberish Detector and Combo tests
-- `queries-fuzzy.txt`: text file of queries used to test TheFuzz
-- `queries-list.py`: queries used to test libraries, formatted in a suitable datatype
-- `queries.txt`: text file of queries used to test libraries
-- `txt-convert.py`: converts a txt file to a list datatype that can easily be used for testing
+- `idealist-philosophy-corpus.txt` - Corpus used to create model for gibberish-detector
+- `philosophy.model` - model created from Gibbertish Detector's train feature using the Idealist Philosophy corpus, used as default model in Gibberish Detector and Combo tests
+- `queries-fuzzy.txt` - text file of queries used to test TheFuzz
+- `queries-list.py` - queries used to test libraries, formatted in a suitable datatype
+- `queries.txt` - text file of queries used to test libraries
+- `txt-convert.py` - converts a txt file to a list datatype that can easily be used for testing
 
 ## How to Run the Code Locally
 
