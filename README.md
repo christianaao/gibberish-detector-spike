@@ -37,9 +37,9 @@ pip install thefuzz
 #### Running the Code
 First, uncomment the function you’d like to test at the bottom of the file (lines 179 - 181) by deleting the first `#` or using `cmd + /`
 There are 3 functions for the three tests that were conducted:
-- `score_match`: Function to compare fuzzy queries to intended queries
-- `gibberish_score`: Function to compare gibberish queries to intended queries
-- `find_query`: Function to return requested number of matching results to query entered
+- `score_match` - Function to compare fuzzy queries to intended queries
+- `gibberish_score` - Function to compare gibberish queries to intended queries
+- `find_query` - Function to return requested number of matching results to query entered
 
 You can then run the file
 ```bash
