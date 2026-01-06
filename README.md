@@ -60,7 +60,11 @@ gibberish-detector train (text file) > file-name.model
 ```
 Now you can refer to this as your model to detect gibberish against. Ensure to change the default model in the code to your new model.<br /><br />
 
-To run the code:
+You can either run the code in the CLI using:
+```bash
+gibberish-detector detect --model (your model) --interactive
+```
+Or you can run the function I created:
 ```bash
 python gibberish-detector-library-test
 ```
