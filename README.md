@@ -1,6 +1,6 @@
 # Testing Gibberish Detectors
 This project tests different gibberish detector libraries against a set of queries.<br /><br />
-For more information on any of these libraries, please see the source code in the References section below
+For more information on any of these libraries, please cheeck their individual documentations and/or source code linked in the References section below
 
 ## What Each File Does
 
