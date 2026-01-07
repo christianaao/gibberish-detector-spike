@@ -1,6 +1,6 @@
 # Testing Gibberish Detectors
 This project tests different gibberish detector libraries against a set of queries.<br /><br />
-For more information on any of these libraries, please cheeck their individual documentations and/or source code linked in the References section below
+For more information on any of these libraries and resources used, please check their individual documentations and/or source code linked in the References section below.
 
 ## What Each File Does
 
@@ -9,11 +9,11 @@ For more information on any of these libraries, please cheeck their individual d
 - `fuzzy-matching-library-test.py` - tests TheFuzz capabilities on a set of queries, including matching fuzzy queries to pre-determined queries
 - `gibberish-detector-library-test.py` - tests Gibberish Detector capabilities on a set of queries
 - `gibberishpy-library-test.py` - attempt to run gibberishpy. However, this did not work
-- `nostril-library-test.py` - tests nostril capabilities on a set of queries
+- `nostril-library-test.py` - tests Nostril capabilities on a set of queries
 
 ### Other Files
 - `idealist-philosophy-corpus.txt` - Corpus used to create model for gibberish-detector
-- `philosophy.model` - model created from Gibbertish Detector's train feature using the Idealist Philosophy corpus, used as default model in Gibberish Detector and Combo tests
+- `philosophy.model` - model created from Gibbertish Detector's train feature using the 'Idealist Philosophy' corpus, used as default model in Gibberish Detector and Combo tests
 - `queries-fuzzy.txt` - text file of queries used to test TheFuzz
 - `queries-list.py` - queries used to test libraries, formatted in a suitable datatype
 - `queries.txt` - text file of queries used to test libraries
